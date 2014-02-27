@@ -10,7 +10,7 @@
   "activationEvents": [
     "RGB"
   ],
-  "repository": "hemanth/atom-rgb",
+  "repository": "https://github.com/hemanth/atom-rgb",
   "author": {
     "name": "Hemanth HM",
     "email": "hemanth.hm@gmail.com",
