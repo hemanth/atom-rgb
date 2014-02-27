@@ -1,27 +1,23 @@
 {
   "name": "rgb",
   "version": "0.1.0",
-  "description": "Converts all sorts of colors to rgb format.",
+  "description": "Converts any color to RGB.",
   "main": "./lib/rgb",
-  "dependencies": {
-    "rgb": "^0.0.1"
-  },
+  "license": "MIT",
+  "repository": "https://github.com/hemanth/atom-rgb",
   "private": true,
   "activationEvents": [
     "RGB"
   ],
-  "repository": "https://github.com/hemanth/atom-rgb",
   "author": {
     "name": "Hemanth HM",
     "email": "hemanth.hm@gmail.com",
     "url": "http://h3manth.com"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "engines": {
     "atom": ">0.50.0"
   },
-  "license": "MIT"
+  "dependencies": {
+    "rgb": "^0.0.1"
+  }
 }
