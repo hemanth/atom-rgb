@@ -2,7 +2,7 @@
   "name": "rgb",
   "version": "0.1.0",
   "description": "Converts all sorts of colors to rgb format.",
-  "main": "rgb.coffee",
+  "main": "./rgb",
   "dependencies": {
     "rgb": "^0.0.1"
   },
