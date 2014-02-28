@@ -6,6 +6,7 @@
 
 Open the Command Palette and type `RGB`.
 
+![img](http://i.imgur.com/DzsMNV6.gif)
 
 ## License
 
