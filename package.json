@@ -1,23 +1,24 @@
 {
-  "name": "rgb",
-  "version": "0.3.0",
-  "description": "Converts any color to RGB.",
-  "main": "./lib/rgb",
-  "license": "MIT",
-  "repository": "https://github.com/hemanth/atom-rgb",
-  "private": true,
-  "activationEvents": [
-    "RGB"
-  ],
-  "author": {
-    "name": "Hemanth HM",
-    "email": "hemanth.hm@gmail.com",
-    "url": "http://h3manth.com"
-  },
-  "engines": {
-    "atom": ">0.50.0"
-  },
-  "dependencies": {
-    "rgb": "^0.0.1"
-  }
+	"name": "rgb",
+	"version": "0.3.0",
+	"description": "Converts any color to RGB.",
+	"main": "./lib/rgb",
+	"license": "MIT",
+	"repository": "https://github.com/hemanth/atom-rgb",
+	"private": true,
+	"activationCommands": {
+		"atom-workspace": ["RGB"],
+		"atom-text-editor": ["RGB"]
+	},
+	"author": {
+		"name": "Hemanth HM",
+		"email": "hemanth.hm@gmail.com",
+		"url": "http://h3manth.com"
+	},
+	"engines": {
+		"atom": ">0.50.0"
+	},
+	"dependencies": {
+		"rgb": "^0.0.1"
+	}
 }
